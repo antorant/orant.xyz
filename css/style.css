@@ -102,14 +102,14 @@
 html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 100%;
+  font-size: 112.5%;
 }
 
 body {
   color: #222222;
-  font-family: "Cormorant Garamond", system-ui;
+  font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -136,33 +136,65 @@ header {
 /* body { max-width: 48rem; } */
 /* html, body { font-size: 112.5%; } */
 
+img.profile {
+  display: block;
+  margin: 1rem auto;
+  width: 16rem;
+}
+
+@media only screen and (min-width : 767px) {
+  img.profile {
+    float:right;
+    margin-left: 2rem;
+    width: 320px;
+    width: 16rem;
+  }
+}
+
+
+body {
+  background-attachment: fixed;
+  background-image: url("../img/Group_190.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 
 /* Text Styles */
 
-nav .name {
-/*  font-family: "Cormorant Unicase", system-ui;*/
+.name {
+  display: block;
+  font-family: "Cormorant Unicase", system-ui;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: -1.5rem;
+  text-transform: lowercase;
 }
 
 h1 {
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: -.1rem;
-  line-height: 1;
-  margin: 2rem auto;
-/*  text-transform: uppercase;*/
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
+/*  letter-spacing: -.1rem;*/
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
 }
 
 @media only screen and (min-width : 767px) {
-  h1 { font-size: 2rem; }
+  h1 { font-size: 3rem; }
 }
 
 h2 {
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
   line-height: 1.4;
-  margin-top: 3rem;
-/*  text-transform: uppercase;*/
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  text-transform: lowercase;
 }
 
 h3 {
@@ -190,6 +222,7 @@ p {
 
 ul {
   line-height: 1.5;
+  list-style-type: circle;
   /* margin-bottom: 3rem; */
   padding-left: 1rem;
 }
