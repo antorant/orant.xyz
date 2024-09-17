@@ -139,6 +139,8 @@ header {
 }
 
 main {
+  margin: 0 auto;
+  max-width: 36rem;
   padding: 2rem 1rem;
 }
 
