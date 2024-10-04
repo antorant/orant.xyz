@@ -181,7 +181,7 @@ body {
 .name {
 /*  display: block;*/
   font-family: "Cormorant Unicase", system-ui;
-/*  font-size: 1.25rem;*/
+  font-size: .85rem;
   font-style: normal;
   font-weight: 700;
   margin-bottom: -1.5rem;
