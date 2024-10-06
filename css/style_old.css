@@ -1,0 +1,290 @@
+:root {
+  --c-text: #222222;
+  --c-text: #222222;
+  --c-white: #ffffff;
+}
+
+/* === */
+
+.cormorant-unicase-light {
+  font-family: "Cormorant Unicase", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-unicase-regular {
+  font-family: "Cormorant Unicase", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-unicase-medium {
+  font-family: "Cormorant Unicase", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-unicase-semibold {
+  font-family: "Cormorant Unicase", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-unicase-bold {
+  font-family: "Cormorant Unicase", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-medium {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* ===  */
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 125%;
+}
+
+@media only screen and (min-width : 767px) {
+  html, body {
+  font-size: 112.5%;
+  }
+}
+
+body {
+  color: #222222;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/*section {
+  margin: 0 auto;
+  max-width: 36rem;
+  padding: 1rem;
+  width: 100%;
+}*/
+
+header {
+  align-items: flex-start;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 24rem;
+  justify-content: flex-end;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 36rem;
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-position: center;
+  background-size: cover;
+  height: 24rem;
+}
+
+@media only screen and (min-width : 767px) {
+  footer { height: 32rem; }
+}
+
+img.profile {
+  display: block;
+  margin: 1rem auto;
+  width: 16rem;
+}
+
+@media only screen and (min-width : 767px) {
+  img.profile {
+    float:right;
+    margin-left: 2rem;
+    width: 320px;
+    width: 16rem;
+  }
+}
+
+
+body {
+  background-color: #EEF4F2;
+  background-color: #F0F0F0;
+}
+
+
+/* Text Styles */
+
+.name {
+/*  display: block;*/
+  font-family: "Cormorant Unicase", system-ui;
+  font-size: .85rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: -1.5rem;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 500;
+/*  letter-spacing: -.1rem;*/
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
+@media only screen and (min-width : 767px) {
+  h1 { font-size: 1rem; }
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-size: .75rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+hr {
+  background-color: var(--c-text);
+  border: 0 none;
+  height: 1px;
+  margin: 2rem 0;
+}
+
+p {
+  line-height: 1.5;
+  /* margin-bottom: 3rem; */
+}
+
+ul {
+  line-height: 1.5;
+  list-style-type: circle;
+  /* margin-bottom: 3rem; */
+  padding-left: 1rem;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 1rem; 
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
+a.plain-text { text-decoration: none; }
+a.plain-text:hover { text-decoration: underline; }
+
+nav {
+/*  line-height: 2;*/
+/*  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;*/
+  color: var(--c-white);
+}
+
+nav p { line-height: 2; }
+
+nav a { text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+
+
+
+@media only screen and (min-width : 767px) {
+  body {
+    font-size: 115%;
+  }
+}
+
+@media print {
+ body {
+   font-size: 0.875rem;
+ }
+
+ section { margin-bottom: 1rem; }
+ p, ul { margin-bottom: 1rem; }
+ hr { margin: 0; }
+}
