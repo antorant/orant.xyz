@@ -132,13 +132,13 @@ header {
   justify-content: flex-end;
 }
 
-main {
+/*main {
   margin: 0 auto;
   max-width: 36rem;
   
-}
+}*/
 
-footer {
+/*footer {
   background-position: center;
   background-size: cover;
   height: 24rem;
@@ -146,7 +146,7 @@ footer {
 
 @media only screen and (min-width : 767px) {
   footer { height: 32rem; }
-}
+}*/
 
 img.profile {
   display: block;
@@ -173,13 +173,7 @@ img.profile {
   background-color: #848D8A;
   background-size: cover;
   height: calc(100vh - 8rem);
-  width: calc(100vw - 2rem);
-}
-
-@media only screen and (min-width : 767px) {
-  .image-frame {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 
@@ -216,7 +210,7 @@ h1 {
 }
 
 @media only screen and (min-width : 767px) {
-  h1 { font-size: 1rem; }
+/*  h1 { font-size: 1rem; }*/
 }
 
 h2 {
