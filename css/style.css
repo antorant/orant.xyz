@@ -177,7 +177,7 @@ img.profile {
 .cover {
   align-items: center;
   display: flex;
-  height: 12rem;
+/*  height: 12rem;*/
   justify-content: center;
   margin-bottom: 4rem;
 }
@@ -283,7 +283,7 @@ nav p { line-height: 2; }
 nav a { text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 
-.cta { text-align: right; }
+.cta { text-align: center; }
 
 
 
