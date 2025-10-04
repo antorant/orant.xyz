@@ -108,7 +108,8 @@ html, body {
 
 @media only screen and (min-width : 767px) {
   html, body {
-  font-size: 112.5%;
+    font-size: 112.5%;
+    font-size: 125%;
   }
 }
 
@@ -193,17 +194,30 @@ body {
 /* Text Styles */
 
 h1 {
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h1 span {
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.cover p {
+  color: #ffffff;
+  display: block;
   font-family: "Cormorant Unicase", system-ui;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
+  
 /*  margin-bottom: -1.5rem;*/
-  text-transform: lowercase;
-}
-
-.cover h1 {
-  color: #ffffff;
   text-align: center;
+  text-transform: lowercase;
+  
+  
 }
 
 .name {
@@ -293,6 +307,11 @@ table td {
   margin-bottom: .5rem;
   min-width: 5rem;
   vertical-align: top;
+}
+
+footer {
+  font-size:.75rem;
+  text-align: center;
 }
 
 
