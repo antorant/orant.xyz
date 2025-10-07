@@ -244,6 +244,10 @@ h2 {
   text-transform: lowercase;
 }
 
+html[lang="de"] h2 {
+  text-transform: none;
+}
+
 h3 {
   font-size: .75rem;
   font-weight: 700;
