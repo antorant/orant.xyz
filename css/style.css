@@ -301,11 +301,13 @@ li {
   text-align: center;
 }
 
-.examples li p {
-  display: block;
+.examples li:before {
+    content: ' ';
+    clear: right;
+    display: block;
 }
-
-/*.examples li:first-child {
+/*
+.examples li:first-child {
   list-style-type: none;
 }*/
 
