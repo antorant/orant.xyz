@@ -301,9 +301,13 @@ li {
   text-align: center;
 }
 
-.examples li:first-child {
-  list-style-type: none;
+.examples li p {
+  display: block;
 }
+
+/*.examples li:first-child {
+  list-style-type: none;
+}*/
 
 a:link, a:visited {
   color: inherit;
