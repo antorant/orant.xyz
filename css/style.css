@@ -120,8 +120,8 @@ body {
   font-weight: 500;
   font-style: normal;
   margin: 0 auto;
-  max-width: 34rem;
-  padding: 1rem;
+/*  max-width: 34rem;*/
+  padding: 0;
 }
 
 header {
@@ -134,21 +134,11 @@ header {
   justify-content: flex-end;
 }
 
-/*main {
+main {
   margin: 0 auto;
-  max-width: 36rem;
-  
-}*/
-
-/*footer {
-  background-position: center;
-  background-size: cover;
-  height: 24rem;
+  max-width: 34rem;
+  padding: 1rem;
 }
-
-@media only screen and (min-width : 767px) {
-  footer { height: 32rem; }
-}*/
 
 img.profile {
 /*  border-radius: 50%;*/
@@ -159,19 +149,19 @@ img.profile {
 
 @media only screen and (min-width : 767px) {
   img.profile {
-    float:right;
+    /*float:right;
     margin: 0 auto;
     margin-bottom: 2rem;
-    margin-left: 2rem;
-    width: 320px;
+    margin-left: 2rem;*/
     width: 12rem;
   }
 }
 
 .image-frame {
+/*  background-attachment: fixed;*/
   background-color: #848D8A;
   background-size: cover;
-  height: 8rem;
+  height: 16rem;
   margin: 2rem auto;
   width: 100%;
 }
@@ -179,10 +169,18 @@ img.profile {
 .cover {
   align-items: center;
   display: flex;
-/*  min-height: 16rem;*/
-  min-height: 66vh;
   justify-content: center;
-  margin-bottom: 4rem;
+/*  min-height: 16rem;*/
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.cover .arrow {
+  bottom: 1em;
+  color: #ffffff;
+  font-size: 1.5em;
+  position: absolute;
 }
 
 
@@ -194,40 +192,41 @@ body {
 /* Text Styles */
 
 h1 {
-  font-size: inherit;
-  font-style: normal;
-  font-weight: 500;
-}
-
-h1 span {
-  display: block;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.cover p {
   color: #ffffff;
   display: block;
-  font-family: "Cormorant Unicase", system-ui;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  
-/*  margin-bottom: -1.5rem;*/
-  text-align: center;
-  text-transform: lowercase;
-  
-  
-}
-
-.name {
   font-family: "Cormorant Garamond", serif;
-  font-style: italic;
+  font-size: 1em;
+  
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  max-width: 34rem;
+  text-align: center;
+  text-transform: none;
+}
+
+h1 .title {
+  font-family: "Cormorant Unicase", system-ui;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
   text-transform: lowercase;
+}
+
+h1 .separator {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h1 .name {
+  font-style: italic;
+/*  text-transform: lowercase;*/
+}
+
+.cover h1 {
+  margin: 2rem;
 }
 
 @media only screen and (min-width : 767px) {
@@ -270,11 +269,20 @@ hr {
 }
 
 @media only screen and (min-width : 767px) {
-  hr { margin: 2rem 16rem; }
+  hr { margin: 2rem 15rem; }
 }
 
 p {
   line-height: 1.5;
+}
+
+p small {
+  display: inline-block;
+  line-height: 1.25;
+}
+
+p.align-center {
+  text-align: center;
 }
 
 ul {
@@ -286,6 +294,15 @@ ul {
 li {
   line-height: 1.5;
   margin-bottom: 1rem; 
+}
+
+.examples {
+  list-style-position: inside;
+  text-align: center;
+}
+
+.examples li:first-child {
+  list-style-type: none;
 }
 
 a:link, a:visited {
@@ -315,6 +332,7 @@ table td {
 
 footer {
   font-size:.75rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
