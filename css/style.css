@@ -243,6 +243,10 @@ h2 {
   text-transform: lowercase;
 }
 
+h2 span.circle {
+  font-style: normal;
+}
+
 html[lang="de"] h2 {
   text-transform: none;
 }
@@ -298,13 +302,13 @@ li {
 
 .examples {
   list-style-position: inside;
-  text-align: center;
+  text-align: center; text-align: left;
 }
 
 .examples li:before {
-    content: ' ';
+    /*content: ' ';
     clear: right;
-    display: block;
+    display: block;*/
 }
 /*
 .examples li:first-child {
